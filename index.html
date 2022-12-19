@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nabilla Aizuddin</title>
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <h1>
+          <a href="index.html"><h1>Nabilla Aizuddin</h1></a>
+        </h1>
+        <h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </h1>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            <strong> About<span> Me</span></strong>
+          </h2>
+          <p>
+            A recent graduate of Bachelor of Civil Engineering from UTM who
+            found a great passion in Software Engineering. Since then, she has
+            been spending her time improving her literacy in programming
+            languages and delve deeper into the world of technologies.
+          </p>
+          <br />
+          <p>
+            Keen in improving her technology literacy, she has participated in
+            courses such as TalentLab's Foundation Certification in Software
+            Engineering, The Odin Project Full Stack JavaScript, and has
+            completed several independent projects to improve her skills.
+          </p>
+          <br />
+          <p>
+            She is also literate in the usage of Cloud Applications and has
+            gained a certification in DP-900 Azure Data Fundamentals.
+            <br />
+            <a href="#">Learn More</a>
+          </p>
+        </div>
+
+        <div class="imgBox">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            alt="pic1"
+            class="languages"
+          />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            alt="HTML"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg');changeCircleColor('#333')"
+          />
+          <br /><strong>HTML5</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            width="48"
+            height="48"
+            alt="CSS3"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg');changeCircleColor('#060808')"
+          />
+          <br /><strong>CSS3</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            alt="JavaScript"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg');changeCircleColor('#335')"
+          />
+
+          <br /><strong>JavaScript</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            width="48"
+            height="48"
+            alt="React"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg');changeCircleColor('#0e3274')"
+          />
+          <br /><strong>React</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            width="48"
+            height="48"
+            alt="Node.js"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg');changeCircleColor('#b0cb94')"
+          />
+          <br /><strong>Node.js</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            width="48"
+            height="48"
+            alt="PostgreSQL"
+            onclick="imgSlider('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg');changeCircleColor('#6f9cdf')"
+          />
+          <br /><strong>PostgreSQL</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="azure.svg"
+            width="48"
+            height="48"
+            alt="Azure"
+            onclick="imgSlider('azure.svg');changeCircleColor('#010102')"
+          />
+          <br /><strong>Azure</strong>
+        </li>
+        <br />
+        <li>
+          <img
+            src="aws-icon.svg"
+            width="48"
+            height="48"
+            alt="AAWS"
+            onclick="imgSlider('aws-icon.svg');changeCircleColor('#d7970d')"
+          />
+          <br /><strong>AWS</strong>
+        </li>
+      </ul>
+      <!--
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="linkedIn.png" alt="linkedin" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="linkedIn.png" alt="linkedin" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="linkedIn.png" alt="linkedin" /></a>
+        </li>
+      </ul>
+    --></section>
+
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".languages").src = anything;
+      }
+
+      function changeCircleColor(color) {
+        const circle = document.querySelector(".circle");
+        circle.style.background = color;
+      }
+
+      function changeCaption(text) {
+        const caption = document.querySelector();
+      }
+    </script>
+  </body>
+</html>
